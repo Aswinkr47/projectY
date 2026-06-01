@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height: 100vh;
+            background:url("images/wallpaper.jpg");
+            
+            background-size:cover;
+        }
+        #box{
+           width:350px;
+           padding:30px;
+           background:rgba(255,255,255,0.1);
+           backdrop-filter:blur(10px);
+           border:1px solid rgba(255,255,255,0.1);
+           border-radius:20px;
+           box-shadow:0 0 20px rgba(0,0,0,0,3);
+           color:aliceblue
+        }
+        .container{
+           padding-left:20px;
+           color:white;
+        }
+        input{
+            width:100%;
+            padding:12px 8px;
+            border-radius:25px;
+            border:1px solid rgba(255,255,255,0.3);
+            background:transparent;
+            color:whitesmoke;
+        }
+        /*
+        #user{
+            margin-top:20px;
+            border-radius:15px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-right:10px;
+        }
+        #pass{
+            margin-top:20px;
+            border-radius: 15px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-right:10px;
+        }
+        #tele{
+            border-radius:14px;
+            margin-top:10px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-right:10px;
+        }*/
+        #datee{
+            border-radius:14px;
+            margin-top:10px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-right:10px;
+        }
+        button{
+            width:20%;
+padding:10px;
+margin:8px 0;
+border:1px solid#ccc;
+border-radius:15px;
+background:transparent;
+color:antiquewhite;
+        }
+        #submit{
+               border-color:green;
+               border-width:2px;
+        }
+        #submit:hover{
+         
+            background-color:lightgreen;
+
+        }
+        #clear{
+            border-color: red;
+            border-width:2px;
+        }
+        #clear:hover{
+            background-color:tomato;
+        }
+        h1{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+    </style>
+    <title>a test file </title>
+</head>
+<body>
+    <center>
+    
+    <div id="box">
+        <h1>Create Account</h1>
+    <form>
+        <div class="container">
+        <label for="user" id="user">ENTER USERNAME : </label>
+        <input type="text" id="user" required><br>
+        <label for="pass" id="pass">ENTER PASSWORD : </label>
+        <input type="password" id="pass" minlength="6"  required><br>
+        <label for="number">MOBILE NUMBER : </label>
+        <input type="tel" maxlength="10"  placeholder="80895 68674" id="tele"><br>
+        <label for="datee">ENTER DATE OF BIRTH : </label>
+        <input type="date" id="datee">
+        <br><br>
+        <button type="submit" id="submit">SIGN IN</button>
+        <button type="submit" id="clear">SIGN UP</button>
+</div>
+    </form>
+    </div>
+    </center>
+</body>
+</html>

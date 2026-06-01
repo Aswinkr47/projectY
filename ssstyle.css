@@ -1,0 +1,70 @@
+body{
+    background-image:url("images/spacebg.jpg");
+    background-size:contain;
+}
+header{
+    background-color: blue;
+    background-image:url("solarsystem.jpg");
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 0, 0);
+    border-radius:20px;
+}
+nav{
+    background-color: antiquewhite;
+    border-radius:20px;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    padding:2px;
+    
+}
+a:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+#sun{
+    color:aquamarine;
+    background-color:rgba(0, 0, 255, 0.173);
+    border-radius: 20px;
+    padding:2px;
+    margin:2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sun,img{
+    border-radius:30px;
+}
+#merc{
+background-color: rgba(0, 0, 255, 0.173);
+color:rgba(0, 255, 255, 0.685);
+border-radius: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.mercu{
+    image-resolution: inherit;
+    width: 50%;
+    height:50%;
+}
+#ven{
+background-color: rgba(0, 0, 255, 0.173);
+color:aquamarine;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:visited{
+    
+    background-color: rgba(255, 0, 0, 0.033);
+}
+div{
+    background-color: rgba(0, 0, 255, 0.173);
+color:aquamarine;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: grey;
+    margin:0;
+    padding:0;
+}
